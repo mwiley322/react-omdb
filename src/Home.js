@@ -1,9 +1,14 @@
 import React, { Component } from 'react';
+import Search from './Search.js';
+
 
 class Home extends Component {
   render() {
     return (
-      <h1>Hello, World!</h1>
+      <div>
+        <h1>React Movie Search</h1>
+        <Search />
+      </div>
     );
   };
 }
